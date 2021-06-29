@@ -1,0 +1,29 @@
+.place__website__url-heading{
+  margin: 0;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(170, 170, 170, 1);
+  text-transform: uppercase;
+  }
+
+  @media screen and (min-width:1025px){
+    .place__website__url-heading{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px){
+
+  }
+
+  @media screen and (min-width: 321px) and (max-width: 768px){
+
+  }
+
+  @media screen and (max-width:320px){
+
+  }
