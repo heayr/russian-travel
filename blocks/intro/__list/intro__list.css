@@ -1,4 +1,4 @@
-.intro__list{
+.intro__list {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -13,34 +13,30 @@
   margin: 30px auto 0;
 }
 
-@media screen and (min-width:1025px){
-
+@media screen and (min-width: 1025px) {
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
-  .intro__list{
-font-weight: 700;
-padding: 0 240px 0 0;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .intro__list {
+      font-weight: 700;
+      padding: 0 240px 0 0;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px){
-  .intro__list{
-    max-width: 720px;
-    padding: 2px 0 0;
-    letter-spacing: 0.2px;
-  }
-
-}
-
-@media screen and (max-width:320px){
-  .intro__list{
-font-size: 12px;
-font-weight: 700;
-line-height: 18px;
-padding: 0;
-max-width: 290px;
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .intro__list {
+      max-width: 720px;
+      padding: 2px 0 0;
+      letter-spacing: 0.2px;
   }
 }
 
-
+@media screen and (max-width: 320px) {
+  .intro__list {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 18px;
+      padding: 0;
+      max-width: 290px;
+  }
+}

@@ -1,5 +1,5 @@
 body {
-  background-color:  rgba(42, 44, 47, 1);
+  background-color: rgba(42, 44, 47, 1);
 }
 
 .page {
@@ -8,11 +8,10 @@ body {
   font-family: Inter, Arial, sans-serif;
   color: white;
   margin: 0 auto;
+  background-color: rgba(42, 44, 47, 1);
 }
 
-
 /* отступы поправить перед отправкой через @media задать более ранние переходы стилей чтобы были отступы от краёв */
-
 
 /*
 

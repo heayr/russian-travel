@@ -1,11 +1,11 @@
-.place__website__link{
+.place__link{
   align-self: flex-end;
   grid-column: 2/3;
   grid-row: 1/1;
 }
 
 @media screen and (max-width:320px){
-  .place__website__link{
+  .place__link{
     grid-column: 1/1;
     grid-row: 2/3;
     padding-left: 16px;
