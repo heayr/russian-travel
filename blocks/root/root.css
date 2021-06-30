@@ -4,12 +4,12 @@ body {
 
 .page {
   max-width: 1180px;
-  /* max-width: 100%; */
   min-width: 320px;
   font-family: Inter, Arial, sans-serif;
   color: white;
   margin: 0 auto;
 }
+
 
 /* отступы поправить перед отправкой через @media задать более ранние переходы стилей чтобы были отступы от краёв */
 

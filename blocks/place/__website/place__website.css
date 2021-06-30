@@ -6,7 +6,9 @@
   letter-spacing: 0em;
   margin: 0;
   color: white;
-
+  transition: 0.8s ease;
 }
 
-
+.place__website:hover{
+  opacity: 0.8;
+}
