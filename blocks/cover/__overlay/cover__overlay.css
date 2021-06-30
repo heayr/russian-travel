@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  transition: 0.8s ease;
 }
 
 .cover__overlay:hover {
