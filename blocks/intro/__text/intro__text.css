@@ -11,24 +11,18 @@
   padding: 0;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 1200px) {
+
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .intro__text {
-      /* padding: 0 205px 0 0; */
-
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .intro__text {
       margin: 0 auto;
       width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .intro__text {
       font-size: 16px;
       line-height: 26px;

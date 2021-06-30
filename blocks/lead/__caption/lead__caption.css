@@ -12,25 +12,22 @@
   max-width: 985px;
 }
 
-@media screen and (min-width: 1025px) {
-  .lead__caption {
-  }
-}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .lead__caption {
       letter-spacing: 1.5px;
+      width: 922px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
       letter-spacing: 1.5px;
       width: 768px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
       letter-spacing: 1.5px;
       max-width: 290px;

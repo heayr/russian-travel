@@ -15,18 +15,8 @@
     }
   }
 
-  @media screen and (min-width: 769px) and (max-width: 1024px){
 
-    }
-  }
-
-  @media screen and (min-width: 321px) and (max-width: 768px){
-    .place__url-heading{
-    }
-
-  }
-
-  @media screen and (max-width:320px){
+  @media screen and (max-width:767){
     .place__url-heading{
       line-height: 12px;
       margin-bottom: 12px;
