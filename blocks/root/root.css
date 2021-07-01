@@ -4,58 +4,9 @@ body {
 
 .page {
   max-width: 1280px;
-  min-width: 320px;
+  /* min-width: 320px; не знаю зачем я поставил этот параметр в итоге он ломал верстку и создавал горизонтальный скрол =( */
   font-family: Inter, Arial, sans-serif;
   color: white;
   margin: 0 auto;
   background-color: rgba(42, 44, 47, 1);
 }
-
-
-/*
-@media screen and (min-width:1025px){
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
-  .page{
-    max-width: 1024px;
-  }
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px){
-  .page{
-    max-width: 768px;
-  }
-
-}
-
-@media screen and (max-width:320px){
-  .page{
-    max-width: 320px;
-  }
-
-} */
-/* отступы поправить перед отправкой через @media задать более ранние переходы стилей чтобы были отступы от краёв */
-
-/*
-
-@media screen and (min-width:1025px){
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px){
-
-}
-
-@media screen and (max-width:320px){
-
-}
-
-
-*/
