@@ -10,6 +10,10 @@
 
 }
 
+.place:last-child{
+  margin: 0 auto 0;
+}
+
 
 @media screen and (max-width: 1200px){
  .place{
@@ -20,7 +24,7 @@
 @media screen and (max-width: 1023px){
   .place{
     max-width: 720px;
-    margin: 0 auto 45px;
+    margin: 0 auto 70px;
     column-gap: 18px;
    }
 
@@ -31,12 +35,9 @@
     column-gap: 0;
     row-gap: 34px;
     max-width: 320px;
-    margin: 0 auto 75px;
+    margin: 0 auto 48px;
     grid-template-columns: 1fr;
   grid-template-rows: auto;
-   }
-   .place:last-child{
-     margin: 0 auto 0;
    }
 
 }
