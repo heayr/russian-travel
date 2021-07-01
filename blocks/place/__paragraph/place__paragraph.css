@@ -13,10 +13,15 @@
 }
 
 @media screen and (max-width: 1200px){
-
+  .place__paragraph{
+  max-width: 456px;
+  }
 }
 
 @media screen and (max-width: 1023px){
+  .place__paragraph{
+    max-width: 352px;
+    }
 
 }
 
