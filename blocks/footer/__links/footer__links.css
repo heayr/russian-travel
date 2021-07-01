@@ -5,13 +5,16 @@
   justify-content: space-between;
   list-style: none;
   column-gap: 18px;
+  max-width: 1180px;
+
 }
 
 @media screen and (max-width: 767px) {
   .footer__links {
+      max-width: 767px;
       flex-direction: column;
       row-gap: 32px;
-      margin: 30px 0;
-      width: 288px;
+      margin: 30px auto;
+      width: 320px;
   }
 }

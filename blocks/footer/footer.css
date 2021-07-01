@@ -24,7 +24,8 @@
   .footer {
       max-width: 320px;
       flex-direction: column;
-      margin: 34px 0 0;
+      margin: 34px auto 0;
       align-items: center;
+      justify-content: flex-start;
   }
 }

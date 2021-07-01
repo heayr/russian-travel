@@ -1,5 +1,5 @@
 .intro {
-  width: 985px;
+  max-width: 985px;
   margin: 90px auto 0;
   font-family: Inter, Arial, Helvetica, sans-serif;
 }
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1023px) {
   .intro{
-    width: 768px;
+    max-width: 768px;
     margin: 88 0 0;
   }
 }
@@ -21,6 +21,6 @@
 @media screen and (max-width: 767px) {
   .intro {
       margin: 65px auto 0;
-      width: 288px;
+      max-width: 288px;
   }
 }
