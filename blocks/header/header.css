@@ -1,5 +1,8 @@
 .header {
-  max-width: 1184px;
+  /* ещё проработал вариант через отступы padding и  margin auto, будет адаптивность,
+  но не такая плавная как эта. было бы круто больше подобных примеров видеть через calc(Y - (x*z)) */
+  max-width: calc(1280px - (48px * 2));
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   margin: 30px auto 0;
@@ -7,20 +10,21 @@
 
 @media screen and (max-width: 1200px) {
   .header {
-    max-width: 1024px;
-    margin: 30px 47px 0;
+    margin: 30px auto 0;
+    max-width: calc(100% - (48px * 2));
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header {
-    max-width: 768px;
-    margin: 30px 25px 0;
+    max-width: calc(100% - (25px * 2));
+    margin: 30px auto 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    margin: 15px 15px 0;
+    max-width: calc(100% - (15px * 2));
+    margin: 15px auto 0;
   }
 }
