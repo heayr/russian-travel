@@ -1,26 +1,17 @@
 .places {
-  margin: 100px auto 0;
+  margin: 95px auto 0;
   padding: 0;
   list-style: none;
 }
 
-@media screen and (max-width: 1200px){
-  .places{
+@media screen and (max-width: 1200px) {
+  .places {
     margin: 90px auto 0;
   }
-
 }
 
-@media screen and (max-width: 1023){
-  .places{
-    margin: 90px auto 0;
-  }
-
-}
-
-@media screen and (max-width:767px){
-  .places{
+@media screen and (max-width: 767px) {
+  .places {
     margin: 0 auto;
   }
-
 }

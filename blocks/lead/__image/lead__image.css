@@ -1,28 +1,26 @@
 .lead__image {
-    object-fit: cover;
-    width: 77%;
-    margin: 65px auto 10px;
+  object-fit: cover;
+  width: 77%;
+  margin: 65px auto 5px;
 }
 
 @media screen and (max-width: 1200px) {
-    .lead__image {
-      width: 91%;
-      margin: 52px auto 10px;
-    }
+  .lead__image {
+    width: 91%;
+    margin: 52px auto 10px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .lead__image {
-        width: 100%;
-        margin: 55px auto 5px;
-    }
+  .lead__image {
+    width: 100%;
+    margin: 55px auto 5px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .lead__image {
-        width: 100%;
-        margin: 40px auto 10px;
-    }
+  .lead__image {
+    width: 100%;
+    margin: 40px auto 10px;
+  }
 }
-
-

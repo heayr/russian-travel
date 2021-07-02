@@ -1,12 +1,11 @@
-body {
+.body {
   background-color: rgba(42, 44, 47, 1);
-}
-
-.page {
-  max-width: 1280px;
-  /* min-width: 320px; не знаю зачем я поставил этот параметр в итоге он ломал верстку и создавал горизонтальный скрол =( */
   font-family: Inter, Arial, sans-serif;
   color: white;
+}
+
+.root {
+  max-width: 1280px;
   margin: 0 auto;
   background-color: rgba(42, 44, 47, 1);
 }

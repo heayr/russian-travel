@@ -6,14 +6,13 @@
   list-style: none;
   column-gap: 18px;
   max-width: 1180px;
-
 }
 
 @media screen and (max-width: 767px) {
   .footer__links {
-      width: 288px;
-      flex-direction: column;
-      row-gap: 32px;
-      margin: 30px auto;
+    width: 288px;
+    flex-direction: column;
+    row-gap: 32px;
+    margin: 30px auto;
   }
 }

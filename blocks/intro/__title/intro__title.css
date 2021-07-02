@@ -9,15 +9,8 @@
   max-width: 985px;
 }
 
-@media screen and (min-width: 1025px) {
-}
-
-@media screen and (max-width: 1058px) {
-
-}
-
 @media screen and (max-width: 1023px) {
-  .intro__title{
+  .intro__title {
     max-width: 720px;
     margin: 0 auto 40px;
   }
@@ -25,8 +18,8 @@
 
 @media screen and (max-width: 767px) {
   .intro__title {
-      font-size: 32px;
-      line-height: 35px;
-      max-width: 290px;
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 290px;
   }
 }

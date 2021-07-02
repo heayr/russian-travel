@@ -4,38 +4,33 @@
   list-style: none;
   font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
   width: 985px;
   padding: 0;
-  margin: 30px auto 0;
-}
-
-@media screen and  (max-width: 1200px) {
+  margin: 35px auto 0;
 }
 
 @media screen and (max-width: 1200px) {
   .intro__list {
-      font-weight: 700;
-      width:928px;
-
+    width: 928px;
+    margin: 30px auto 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro__list {
-      max-width: 720px;
-      letter-spacing: 0.2px;
+    max-width: 720px;
+    letter-spacing: 0.2px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__list {
-      font-size: 12px;
-      font-weight: 700;
-      line-height: 18px;
-      max-width: 290px;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 290px;
   }
 }

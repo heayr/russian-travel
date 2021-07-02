@@ -1,4 +1,4 @@
-.place__image{
+.place__image {
   width: 95%;
   object-fit: cover;
   grid-column: 1/1;
@@ -6,25 +6,16 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1200px){
-  .place__image{
+@media screen and (max-width: 1200px) {
+  .place__image {
     width: 97%;
   }
-
 }
 
-@media screen and (max-width: 1023px){
-  .place__image{
-    width: 97%;
-  }
-
-}
-
-@media screen and (max-width:767px){
-  .place__image{
+@media screen and (max-width: 767px) {
+  .place__image {
     width: 100%;
     grid-column: 1/2;
     grid-row: 3/4;
   }
-
 }
