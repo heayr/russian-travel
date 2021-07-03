@@ -6,6 +6,8 @@
   line-height: 28px;
   letter-spacing: 0em;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity .8s ease;
 }
 
 .header__lang-link:hover {
