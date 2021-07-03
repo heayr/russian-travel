@@ -31,9 +31,9 @@
 @media screen and (max-width: 767px) {
   .place {
     column-gap: 0;
-    row-gap: 32px;
+    row-gap: 34px;
     max-width: 320px;
-    margin: 0 auto 48px;
+    margin: 0 auto 43px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }

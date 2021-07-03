@@ -1,0 +1,6 @@
+.body {
+  background-color: rgba(42, 44, 47, 1);
+  font-family: Inter, Arial, sans-serif;
+  color: white;
+  min-width: 320px;
+}

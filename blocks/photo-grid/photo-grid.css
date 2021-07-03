@@ -3,29 +3,29 @@
   max-width: 1185px;
   margin: 90px auto 0;
   grid-auto-rows: auto;
-  grid-template-columns: repeat(4, 24%);
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 
 @media screen and (max-width: 1200px) {
   .photo-grid {
     max-width: 935px;
-    grid-template-columns: repeat(3, 32%);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .photo-grid {
     max-width: 720px;
-    grid-template-columns: repeat(2, 49%);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 760px) {
   .photo-grid {
-    margin: 65px auto 60px;
+    margin: 67px auto 60px;
     max-width: 288px;
-    grid-template-columns: 101%;
-    gap: 10px;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 }
