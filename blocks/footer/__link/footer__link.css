@@ -7,12 +7,11 @@
   line-height: 18px;
   letter-spacing: 0em;
   opacity: 1;
-  /* transition-property: opacity .8s, ease; */
+  transition: opacity .8s ease;
 }
 
 .footer__link:hover {
   opacity: 0.8;
-  /* transition: opacity .8s, ease; */
 }
 
 @media screen and (max-width: 767px) {
